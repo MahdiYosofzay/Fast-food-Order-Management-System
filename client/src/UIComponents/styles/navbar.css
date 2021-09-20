@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(79, 79, 238);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 9009;
+}
+
+.navbar h1 {
+  color: white;
+  margin-left: 3rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 8rem;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 2rem;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.basket {
+  position: relative;
+}
+.basket .items-number {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  background: red;
+  color: #fff;
+  border-radius: 70px;
+  padding: 0 0.3rem;
+}
+
+.basket .empty {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  background: #fff;
+  color: royalblue;
+  border-radius: 70px;
+  padding: 0 0.3rem;
+}
