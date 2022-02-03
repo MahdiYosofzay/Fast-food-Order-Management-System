@@ -22,6 +22,7 @@ const Container = ({ loadItems, getPendingOrders, getTotalSales }) => {
       <Navbar />
       <div>
         <Switch>
+          <Route path="/" exact component={NewOrder} />
           <Route path="/orders" exact component={Dashboard} />
           <Route path="/new-order" exact component={NewOrder} />
           <Route path="/new-order/:category" exact component={NewOrder} />
