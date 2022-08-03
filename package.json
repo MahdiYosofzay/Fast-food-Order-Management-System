@@ -1,7 +1,6 @@
 {
-  "name": "Dehkadah",
+  "name": "dehkadah",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server",
@@ -14,11 +13,21 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^6.2.1",
+    "dotenv": "^16.0.1",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",
     "moment": "^2.29.1",
     "mongoose": "^5.13.3",
     "router": "^1.3.5",
     "uniqid": "^5.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahdiYosofzay/Fast-food-Order-Management-System.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MahdiYosofzay/Fast-food-Order-Management-System/issues"
+  },
+  "homepage": "https://github.com/MahdiYosofzay/Fast-food-Order-Management-System#readme",
+  "description": ""
 }
